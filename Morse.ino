@@ -32,9 +32,6 @@ void loop() {
 
   Serial.println(message);
   Serial.println(message.length());
-
-  //String str = "sbc";
-  //str.toUpperCase();
   
   for(int i = 0; i < message.length();i++){
       int s = charCode.indexOf(message[i]);
